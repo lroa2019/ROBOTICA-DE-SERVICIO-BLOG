@@ -1,4 +1,3 @@
-
 # Aspiradora Robótica con Algoritmo BSA
 
 ---
@@ -16,6 +15,12 @@ Para planificar la cobertura se utiliza el **algoritmo BSA (Backtracking Spiral 
 Este método combina una exploración sistemática tipo espiral con la capacidad de **retroceder (backtracking)** hacia zonas no visitadas cuando no existen celdas libres adyacentes, asegurando así la **cobertura total del entorno**.
 
 El sistema se completa con un **control de movimiento reactivo**, que traduce las decisiones del planificador en órdenes de velocidad lineal y angular, y con una **interfaz gráfica (WebGUI)** donde se visualiza el progreso en tiempo real: el mapa, los obstáculos, las zonas visitadas y la trayectoria del robot.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/cb4a875b-9525-4b61-906c-2a0a653c80dc" alt="Mapa" width="400"/>
+</div>
+
+<p align="center"><b>Figura 1: Entorno inicial del robot.</b></p>
 
 ---
 
@@ -44,6 +49,12 @@ Esto asegura que el robot no se acerque en exceso a las paredes o muebles.
 
 También se crea una correspondencia entre el **centro de cada celda** y sus coordenadas dentro del mapa, lo que permite transformar posiciones entre el mundo real y la representación digital.
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/068bfbf3-476a-48ba-87de-0d195b78caea" alt="Mapa" width="400"/>
+</div>
+
+<p align="center"><b>Figura 2: Mapa con obstáculos (negro) y celdas libres (gris).</b></p>
+
 ---
 
 ### 2.3 Planificación de la ruta con el algoritmo BSA
@@ -62,6 +73,12 @@ Durante este proceso, el mapa se actualiza en la interfaz WebGUI:
 
 Esta visualización permite seguir paso a paso el razonamiento del robot y comprobar que se logra la cobertura completa.
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b27de8fd-b231-4dc7-bdc5-820919ad7704" alt="Mapa" width="400"/>
+</div>
+
+<p align="center"><b>Figura 3: Ruta de cobertura planificada con puntos críticos.</b></p>
+
 ---
 
 ### 2.4 Pilotaje y control del movimiento
@@ -73,6 +90,12 @@ A medida que el robot avanza, cada celda alcanzada se marca como visitada, actua
 
 El proceso se repite de manera continua hasta cubrir completamente el entorno.  
 Al finalizar, el sistema muestra un mensaje confirmando que la limpieza ha concluido correctamente.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/63eaf39f-cd86-46a2-81db-172c24ad7b4e" alt="Mapa" width="400"/>
+</div>
+
+<p align="center"><b>Figura 4: Progreso del robot durante la limpieza.</b></p>
 
 ---
 
@@ -95,3 +118,10 @@ Durante la realización de la práctica se identificaron varios inconvenientes q
    El algoritmo de planificación resultó **lento**, ya que el programa **pinta cada celda en la interfaz** a medida que la calcula.  
    Esto permite observar el progreso en tiempo real, pero consume muchos recursos gráficos y de procesamiento.  
    Una solución sería **actualizar la interfaz por lotes** (cada cierto número de celdas o al completar un tramo), lo que aceleraría considerablemente el proceso sin perder claridad visual.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/cf9f6764-b722-4735-9734-d3922275ddbe" alt="Mapa" width="400"/>
+</div>
+
+<p align="center"><b>Figura 5: Limpieza completa de la casa.</b></p>
+
