@@ -208,36 +208,35 @@ La ejecución periódica está regulada por `Frequency.tick(10)`.
 ### 8.1 Mapa inicial (todo desconocido)
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/bdcce1c4-27ff-466e-a5f2-7810323b3896" width="500">
+  <img src="https://github.com/user-attachments/assets/ec227a36-a89f-4ebc-a12c-cd77e5ee10a4" width="800">
 </div>  
 <p align="center"><b>Figura 1: Estado inicial del mapa (UNK).</b></p>
 
 ### 8.2 Progresión del mapeo
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/b7397590-a684-41c9-bf66-d9cad0a823bb" width="500">
+  <img src="https://github.com/user-attachments/assets/74ed9025-7aa0-402b-b2dc-ee633a91bcaf" width="800">
 </div>  
 <p align="center"><b>Figura 2: Proceso de construcción del mapa.</b></p>
 
 ### 8.3 Mapa final tras exploración completa
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/cd97c030-9591-4cdc-aab5-2c41313cc0d1" width="500">
+  <img src="https://github.com/user-attachments/assets/c4baff3c-313e-4474-847d-3c569c2c212f" width="800">
 </div>  
 <p align="center"><b>Figura 3: Mapa final obtenido por el robot.</b></p>
 
 ### 8.4 Video de la ejecución completa (odometría2 y odometría3)
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/6f519c18-133a-46bd-93ae-07c3635bcee1" width="500">
-</div>  
+[Ejecución completa video](https://github.com/user-attachments/assets/fbb4ce38-f6fc-4882-ad74-671035619bc2)
 <p align="center"><b>Figura 4: Demostración de la ejecución.</b></p>
 
+### 8.5 Mapa tras exploración con odometría2
 
-
-https://github.com/user-attachments/assets/b2bea24f-33cf-4fb1-86c5-152b2c846125
-
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2cfb1293-d4b4-4e7f-9f41-7aa232f78874" width="800">
+</div>  
+<p align="center"><b>Figura 5: Mapa obtenido usando odometría2.</b></p>
 
 ## 9. Problemas Detectados
 
