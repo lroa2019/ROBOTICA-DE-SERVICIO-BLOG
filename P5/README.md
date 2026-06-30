@@ -233,6 +233,12 @@ La ejecución periódica está regulada por `Frequency.tick(10)`.
 </div>  
 <p align="center"><b>Figura 4: Demostración de la ejecución.</b></p>
 
+
+
+https://github.com/user-attachments/assets/b2bea24f-33cf-4fb1-86c5-152b2c846125
+
+
+
 ## 9. Problemas Detectados
 
 ### 9.1 Irregularidades en el mapa derivadas del ruido del sensor láser
