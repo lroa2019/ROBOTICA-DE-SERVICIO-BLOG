@@ -72,6 +72,8 @@ En este apartado incluimos capturas de pantalla y un vídeo representativo del f
 </p>
 <p align="center"><b>Figura 1: Robot detectando un marcador AprilTag.</b></p>
 
+![Foto 2](https://github.com/user-attachments/assets/e5b44d81-9e2e-4d2b-b727-50652b22d125)
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e5b44d81-9e2e-4d2b-b727-50652b22d125" width="600"/>
 </p>
